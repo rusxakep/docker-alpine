@@ -1,13 +1,13 @@
-# hub.docker.com/r/tiredofit/alpine
+# hub.docker.com/r/rusxakep/alpine
 
-[![Build Status](https://img.shields.io/docker/build/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/alpine.svg)](https://hub.docker.com/r/tiredofit/alpine)
+[![Build Status](https://img.shields.io/docker/build/rusxakep/alpine.svg)](https://hub.docker.com/r/rusxakep/alpine)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rusxakep/alpine.svg)](https://hub.docker.com/r/rusxakep/alpine)
+[![Docker Stars](https://img.shields.io/docker/stars/rusxakep/alpine.svg)](https://hub.docker.com/r/rusxakep/alpine)
 [![Docker 
-Layers](https://images.microbadger.com/badges/image/tiredofit/alpine.svg)](https://microbadger.com/images/tiredofit/alpine)
+Layers](https://images.microbadger.com/badges/image/rusxakep/alpine.svg)](https://microbadger.com/images/rusxakep/alpine)
 
 # Introduction
 
 Dockerfile to build an [alpine](https://www.alpinelinux.org/) container image.
 
-* Please See Individual Branches for Versions and Builds
+* Please see individual branches for versions and builds
