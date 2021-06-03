@@ -32,10 +32,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -127,10 +127,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -222,10 +222,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -317,10 +317,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -412,10 +412,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -507,10 +507,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -602,10 +602,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -697,10 +697,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -792,10 +792,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -887,10 +887,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -982,10 +982,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
@@ -1077,10 +1077,10 @@ jobs:
              fi
 
             case ${BRANCH} in
-              "main" | "master" )
+              main | master | *-master )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE},${DOCKER_IMAGE}:${RELEASE}-latest,${DOCKER_IMAGE}:latest"
                 ;;
-              "develop" )
+              develop )
                   BRANCHTAG="${DOCKER_IMAGE}:${RELEASE}-develop"
                 ;;
             esac
