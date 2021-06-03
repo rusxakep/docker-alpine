@@ -1,9 +1,9 @@
-# github.com/tiredofit/docker-alpine
+# github.com/rusxakep/docker-alpine
 
-[![GitHub release](https://img.shields.io/github/v/tag/tiredofit/docker-alpine?style=flat-square)](https://github.com/tiredofit/docker-alpine/releases/latest)
-[![Build Status](https://img.shields.io/github/workflow/status/tiredofit/docker-alpine/build?style=flat-square)](https://github.com/tiredofit/docker-alpine/actions?query=workflow%3Abuild)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/alpine.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/tiredofit/alpine/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/alpine.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/tiredofit/alpine/)
+[![GitHub release](https://img.shields.io/github/v/tag/rusxakep/docker-alpine?style=flat-square)](https://github.com/rusxakep/docker-alpine/releases/latest)
+[![Build Status](https://img.shields.io/github/workflow/status/rusxakep/docker-alpine/build?style=flat-square)](https://github.com/rusxakep/docker-alpine/actions?query=workflow%3Abuild)
+[![Docker Stars](https://img.shields.io/docker/stars/rusxakep/alpine.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/rusxakep/alpine/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/rusxakep/alpine.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/rusxakep/alpine/)
 [![Become a sponsor](https://img.shields.io/badge/sponsor-tiredofit-181717.svg?logo=github&style=flat-square)](https://github.com/sponsors/tiredofit)
 [![Paypal Donate](https://img.shields.io/badge/donate-paypal-00457c.svg?logo=paypal&style=flat-square)](https://www.paypal.me/tiredofit)
 
@@ -24,6 +24,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) linux container im
 ## Maintainer
 
 - [Dave Conroy](https://github/tiredofit)
+- [Mikhail Baykov] (https://github.com/rusxakep)
 
 ## Table of Contents
 
@@ -64,10 +65,10 @@ No prerequisites required
 Clone this repository and build the image with `docker build <arguments> (imagename) .`
 
 ### Prebuilt Images
-Builds of the image are available on [Docker Hub](https://hub.docker.com/r/tiredofit/alpine) and is the recommended method of installation.
+Builds of the image are available on [Docker Hub](https://hub.docker.com/r/rusxakep/alpine) and is the recommended method of installation.
 
 ```bash
-docker pull tiredofit/alpine:(imagetag)
+docker pull rusxakep/alpine:(imagetag)
 ```
 
 The following image tags are available along with their tagged release based on what's written in the [Changelog](CHANGELOG.md):

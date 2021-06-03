@@ -1,5 +1,5 @@
 FROM alpine:3.13
-LABEL maintainer="Dave Conroy (github.com/tiredofit)"
+LABEL maintainer="Mikhail Baykov (github.com/rusxakep)"
 
 ARG ZABBIX_VERSION
 ARG S6_OVERLAY_VERSION
