@@ -24,7 +24,7 @@ Dockerfile to build an [alpine](https://www.alpinelinux.org/) linux container im
 ## Maintainer
 
 - [Dave Conroy](https://github/tiredofit)
-- [Mikhail Baykov] (https://github.com/rusxakep)
+- [Mikhail Baykov](https://github/rusxakep)
 
 ## Table of Contents
 
